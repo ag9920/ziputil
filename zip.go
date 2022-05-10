@@ -26,7 +26,7 @@ func GetFilesFromZip(path string) ([]File, error) {
 	}
 	defer zf.Close()
 
-	purePath := strings.TrimRight(path, ".zip")
+	purePath := strings.TrimSuffix(path, ".zip")
 
 	infos := make([]File, 0)
 	for _, file := range zf.File {

@@ -16,6 +16,8 @@ var (
 		"MACOSX",
 		".DS_Store",
 		".git",
+		".idea",
+		".vscode",
 	}
 )
 

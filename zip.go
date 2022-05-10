@@ -15,6 +15,7 @@ var (
 	ignoreFileSubStr = []string{
 		"MACOSX",
 		".DS_Store",
+		".git",
 	}
 )
 
